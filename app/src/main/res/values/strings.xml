@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name"><b>InvestDay</b></string>
+    <string name="hint_username">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_pass_1">Password Again</string>
+    <string name="enter"><b>Вход</b></string>
+    <string name="reg_if_not">Нет аккаунта? Зарегистрируйтесь!</string>
+    <string name="reg"><b>Регистрация</b></string>
+    <string name="bag">Ваш портфель</string>
+    <string name="all_price"><b>Общая стоимость портфеля</b></string>
+    <string name="price">10 000 ₽</string>
+    <string name="price_change">-2.76 ₽</string>
+    <string name="Stock_market"><b>Фондовый рынок</b></string>
+    <string name="facilities">Доступные средства:</string>
+    <string name="invest">Инвестировано:</string>
+    <string name="change_inv_fac">Изменение:</string>
+    <string name="Currency_market"><b>Валютный рынок</b></string>
+    <string name="Name"><b>GAZP</b></string>
+    <string name="Name_second">Газпром</string>
+    <string name="current_price"><b>228.00</b></string>
+    <string name="Name_second_2">Акции</string>
+    <string name="quotes">Котировки</string>
+    <string name="quotes_list">Список котировок</string>
+    <string name="notify">Оповещения</string>
+    <string name="profile">Профиль</string>
+    <string name="growth">Рост выше 200.00</string>
+    <string name="status">Выполнено</string>
+    <string name="status_1"><b>Статус</b></string>
+    <string name="search">Поиск</string>
+    <string name="Stocks"><b>Акции</b></string>
+    <string name="Currency"><b>Валюта</b></string>
+    <string name="hint_search">Введите название</string>
+    <string name="page_search">Поиск</string>
+    <string name="page_topup">Пополнить счет</string>
+    <string name="market">Рынок</string>
+    <string-array name="stocks">
+        <item>Фондовый рынок</item>
+        <item>Валютный рынок</item>
+    </string-array>
+    <string-array name="cards">
+        <item>Visa ••••0000</item>
+        <item>Mir ••••0000</item>
+    </string-array>
+    <string-array name="type_of_change">
+        <item>Рост выше</item>
+        <item>Падение ниже</item>
+    </string-array>
+    <string name="helper">Выберите рынок:</string>
+    <string name="hint_price">Укажите сумму</string>
+    <string name="buy"><b>Пополнить счет</b></string>
+    <string name="sell">Вывести средства</string>
+    <string name="sel1l"><b>Вывести средства</b></string>
+    <string name="request_buy">Заявка на покупку</string>
+    <string name="name_of_stock"><b>Купить GAZP</b></string>
+    <string name="name_of_stock1"><b>Лимитная заявка</b></string>
+    <string name="funds_available">Доступно лотов:</string>
+    <string name="sum"><b>Сумма</b></string>
+    <string name="sum_num">0</string>
+    <string name="Price"><b>Цена</b></string>
+    <string name="Price_cur">228</string>
+    <string name="Number_lots"><b>Количество лотов</b></string>
+    <string name="lots_help">Введите количество лотов</string>
+    <string name="lots_help_2"><b>1 лот = 1 шт.</b></string>
+    <string name="buy_lots">Купить</string>
+    <string name="sell_lots">Продать</string>
+    <string name="commission_1"><b>Комиссия биржи и брокера</b></string>
+    <string name="price_commission"><b>10.93 ₽</b></string>
+    <string name="calculation"><b>Расчет по сделке</b></string>
+    <string name="calculation_time"><b>Через 2 дня</b></string>
+    <string name="request_sell">Заявка на продажу</string>
+    <string name="name_of_stock_sell"><b>Продать GAZP</b></string>
+    <string name="name_user"><b>Kirill Kurnakov</b></string>
+    <string name="pass_text">Паспорт РФ</string>
+    <string name="inn_text">ИНН</string>
+    <string name="inn_help">Введите ИНН (12 цифр)</string>
+    <string name="phone_text">Телефон</string>
+    <string name="phone_text_1"><b>Номер телефона</b></string>
+    <string name="phone_help"><b>89997773344</b></string>
+    <string name="email_text">Почта</string>
+    <string name="email_text_1"><b>Адрес электронной почты</b></string>
+    <string name="email_help">Введите адрес почты</string>
+    <string name="card_text">Ваши карты</string>
+    <string name="save"><b>Сохранить</b></string>
+    <string name="FIO"><b>ФИО</b></string>
+    <string name="persdata_help">Введите ФИО</string>
+    <string name="serial_number"><b>Серия и номер</b></string>
+    <string name="serial_help">1234567890</string>
+    <string name="number_help">567890</string>
+    <string name="data_get"><b>Дата выдачи</b></string>
+    <string name="code_part"><b>Код подразделения</b></string>
+    <string name="code_part_help">000</string>
+    <string name="date_birth"><b>Дата рождения</b></string>
+    <string name="date_birth_help">ДД.ММ.ГГГГ</string>
+    <string name="tire">–</string>
+    <string name="day">ДДММГГГГ</string>
+    <string name="add_card_text"><b>Добавить карту</b></string>
+    <string name="add_card_help">Введите номер карты (16 цифр)</string>
+    <string name="add_card_number"><b>Номер карты</b></string>
+    <string name="period"><b>Срок действия</b></string>
+    <string name="period_help">ММГГ</string>
+    <string name="CVV_text"><b>CVV/CVC</b></string>
+    <string name="CVV_help">000</string>
+    <string name="notification_one_text">Уведомление</string>
+    <string name="save_change"><b>Сохранить изменения</b></string>
+    <string name="hint_price_notify">Укажите цену</string>
+    <string name="curr_price_notify">Текущая цена 228.00 ₽</string>
+    <string name="status_txt"><b>Статус</b></string>
+    <string name="status_process">В процессе</string>
+    <string name="example_card"><b>Visa ••••0000</b></string>
+    <string name="dialog_del_card_title"><b>Вы уверены?</b></string>
+    <string name="dialog_del_card_main_t_1">Карта Visa ••••0000 будет</string>
+    <string name="dialog_del_card_main_t_2">удалена!</string>
+    <string name="dialog_del_card_yes"><b>Да</b></string>
+    <string name="dialog_del_card_no"><b>Нет</b></string>
+    <string name="dialog_del_notify_main_t_1">Уведомление для GAZP будет</string>
+    <string name="dialog_del_notify_main_t_2">удалено!</string>
+    <string name="recycling">удалить</string>
+    <string name="dialog_create_notify_title"><b>Уведомление для GAZP</b></string>
+    <string name="dialog_create_notify_main">Последняя цена: 228.00 ₽</string>
+    <string name="dialog_create_notify_b_create"><b>Создать</b></string>
+    <string name="dialog_create_notify_b_cancel"><b>Отмена</b></string>
+    <string name="Name_1">GAZP</string>
+    <string name="overview"><b>Обзор</b></string>
+    <string name="trade"><b>Торговля</b></string>
+    <string name="name_stock"><b>Газпром АО</b></string>
+    <string name="rubles_stock"><b>Изменение ₽</b></string>
+    <string name="rubles_stock_change">+2.34</string>
+    <string name="curr_price"><b>Текущая цена</b></string>
+    <string name="curr_price_change">228.00 ₽</string>
+    <string name="type_market"><b>Фондовый рынок</b></string>
+    <string name="purchase_price">Цена приобретения:</string>
+    <string name="purchase_price_change">228.00 ₽</string>
+    <string name="asset_change_price"><b>-2.00 ₽</b></string>
+    <string name="counts">Количество (шт)</string>
+    <string name="counts_number">10</string>
+    <string name="invest_text">Инвестировано</string>
+    <string name="invest_number">2280.00 ₽</string>
+    <string name="buy_stock"><b>Покупка</b></string>
+    <string name="sell_stock"><b>Продажа</b></string>
+    <string name="notify_channel">NOTIFY</string>
+    <string name="notify_channel_1">NOTIFY_1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

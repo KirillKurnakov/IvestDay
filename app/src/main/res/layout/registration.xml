@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MAIN_FRAME_REGISTRATION"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ivestday.view.Registration"
+    android:background="@color/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="340dp"
+            android:layout_height="490dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/rounded_for_main">
+
+            <EditText
+                android:id="@+id/edit_text_login_reg"
+                android:background="@drawable/rounded"
+                android:maxLength="20"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="147dp"
+                android:paddingHorizontal="16dp"
+                android:hint="@string/hint_username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edit_text_password_reg"
+                android:background="@drawable/rounded"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="235dp"
+                android:paddingHorizontal="16dp"
+                android:hint="@string/hint_pass" />
+
+            <EditText
+                android:id="@+id/editTextTextPasswordAgain"
+                android:background="@drawable/rounded"
+                android:maxLength="20"
+                android:inputType="textPassword"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="322dp"
+                android:paddingHorizontal="16dp"
+                android:hint="@string/hint_pass_1" />
+
+            <Button
+                android:id="@+id/Button_registration_reg"
+                android:layout_width="250dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="420dp"
+                android:background="@drawable/rounded"
+                android:gravity="center_horizontal"
+                android:text="@string/reg"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/main_background"
+                app:strokeColor="@color/black"
+                app:strokeWidth="2dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="15dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/application"
+                tools:visibility="visible"/>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="49dp"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textSize="28dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

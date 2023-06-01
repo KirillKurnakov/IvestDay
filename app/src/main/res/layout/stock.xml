@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ivestday.view.StockBigModel">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar_stock"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/main_2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/Name_1"
+        app:titleTextColor="@color/black"
+        app:menu="@menu/top_app_bar_stock"
+        app:navigationIcon="@drawable/arrow">
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/layout_graphic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/topAppBar_stock"
+        tools:layout_editor_absoluteX="0dp">
+
+    </com.jjoe64.graphview.GraphView>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/TabLayout_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        app:layout_constraintTop_toBottomOf="@+id/layout_graphic"
+        android:background="@color/main_2"
+        app:tabTextColor="@color/black"
+        app:tabIndicatorColor="@color/black">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trade"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/viewpager_stock"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TabLayout_stock" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_bot_nav"
+        app:menu="@menu/bottom_navigation_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:labelVisibilityMode="labeled" />
+
+    <Button
+        android:id="@+id/buy_stock"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/for_status"
+        android:text="@string/buy_stock"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@color/for_status"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/sell_stock"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/sell_stock"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@color/red"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintLeft_toLeftOf="parent" /> <!-- панель навигации-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/add_favorite"
+        android:icon="@drawable/star_favorite"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/create_notify"
+        android:icon="@drawable/bellwithplus"
+        android:title="@string/search"
+        app:showAsAction="always" />
+</menu>

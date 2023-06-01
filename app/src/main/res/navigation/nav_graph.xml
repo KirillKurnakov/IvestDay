@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/autoris2">
+    <fragment
+        android:id="@+id/autoris2"
+        android:name="com.example.ivestday.view.Autoris"
+        android:label="autoris"
+        tools:layout="@layout/autoris" >
+        <action
+            android:id="@+id/navigate_to_registration"
+            app:destination="@id/registration" />
+        <action
+            android:id="@+id/action_autoris2_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_autoris2_to_quotes"
+            app:destination="@id/quotes" />
+    </fragment>
+    <fragment
+        android:id="@+id/registration"
+        android:name="com.example.ivestday.view.Registration"
+        android:label="registration"
+        tools:layout="@layout/registration" >
+        <action
+            android:id="@+id/action_registration_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.ivestday.view.Account"
+        android:label="account"
+        tools:layout="@layout/account" >
+        <action
+            android:id="@+id/action_profile2_to_autoris2"
+            app:destination="@id/autoris2" />
+        <action
+            android:id="@+id/action_profile2_to_quotes"
+            app:destination="@id/quotes" />
+        <action
+            android:id="@+id/action_profile2_to_your_Bag"
+            app:destination="@id/your_Bag" />
+        <action
+            android:id="@+id/action_profile2_to_notifications"
+            app:destination="@id/notifications" />
+        <action
+            android:id="@+id/action_profile2_to_passport"
+            app:destination="@id/passport" />
+        <action
+            android:id="@+id/action_profile2_to_phone2"
+            app:destination="@id/phone2" />
+        <action
+            android:id="@+id/action_profile2_to_email2"
+            app:destination="@id/email2" />
+        <action
+            android:id="@+id/action_profile2_to_cards2"
+            app:destination="@id/cards2" />
+    </fragment>
+    <fragment
+        android:id="@+id/quotes"
+        android:name="com.example.ivestday.view.Quotes"
+        android:label="quotes"
+        tools:layout="@layout/quotes" >
+        <action
+            android:id="@+id/action_quotes_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_quotes_to_your_Bag"
+            app:destination="@id/your_Bag" />
+        <action
+            android:id="@+id/action_quotes_to_notifications"
+            app:destination="@id/notifications" />
+        <action
+            android:id="@+id/action_quotes_to_stockBigModel"
+            app:destination="@id/stockBigModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/your_Bag"
+        android:name="com.example.ivestday.view.Your_Bag"
+        android:label="your_bag"
+        tools:layout="@layout/your_bag" >
+        <action
+            android:id="@+id/action_your_Bag_to_quotes"
+            app:destination="@id/quotes" />
+        <action
+            android:id="@+id/action_your_Bag_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_your_Bag_to_notifications"
+            app:destination="@id/notifications" />
+        <action
+            android:id="@+id/action_your_Bag_to_topUp"
+            app:destination="@id/topUp" />
+        <action
+            android:id="@+id/action_your_Bag_to_withdraw"
+            app:destination="@id/withdraw" />
+    </fragment>
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.example.ivestday.view.Notifications"
+        android:label="notifications"
+        tools:layout="@layout/notifications" >
+        <action
+            android:id="@+id/action_notifications_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_notifications_to_your_Bag"
+            app:destination="@id/your_Bag" />
+        <action
+            android:id="@+id/action_notifications_to_quotes"
+            app:destination="@id/quotes" />
+        <action
+            android:id="@+id/action_notifications_to_notifyBigModel"
+            app:destination="@id/notifyBigModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/topUp"
+        android:name="com.example.ivestday.view.TopUp"
+        android:label="topup"
+        tools:layout="@layout/topup" >
+        <action
+            android:id="@+id/action_topUp_to_your_Bag"
+            app:destination="@id/your_Bag" />
+    </fragment>
+    <fragment
+        android:id="@+id/withdraw"
+        android:name="com.example.ivestday.view.Withdraw"
+        android:label="withdraw"
+        tools:layout="@layout/withdraw" >
+        <action
+            android:id="@+id/action_withdraw_to_your_Bag"
+            app:destination="@id/your_Bag" />
+    </fragment>
+    <fragment
+        android:id="@+id/passport"
+        android:name="com.example.ivestday.view.Passport"
+        android:label="passport_layout"
+        tools:layout="@layout/passport_layout" >
+        <action
+            android:id="@+id/action_passport_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/phone2"
+        android:name="com.example.ivestday.view.Phone"
+        android:label="phone_lay"
+        tools:layout="@layout/phone_lay" >
+        <action
+            android:id="@+id/action_phone2_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/email2"
+        android:name="com.example.ivestday.view.Email"
+        android:label="email_lay"
+        tools:layout="@layout/email_lay" >
+        <action
+            android:id="@+id/action_email2_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cards2"
+        android:name="com.example.ivestday.view.Cards"
+        android:label="list_of_card"
+        tools:layout="@layout/list_of_card" >
+        <action
+            android:id="@+id/action_cards2_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_cards2_to_addCard"
+            app:destination="@id/addCard" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCard"
+        android:name="com.example.ivestday.view.AddCard"
+        android:label="add_card_lay"
+        tools:layout="@layout/add_card_lay" >
+        <action
+            android:id="@+id/action_addCard_to_cards2"
+            app:destination="@id/cards2" />
+    </fragment>
+    <fragment
+        android:id="@+id/stockBigModel"
+        android:name="com.example.ivestday.view.StockBigModel"
+        android:label="stock"
+        tools:layout="@layout/stock" >
+        <action
+            android:id="@+id/action_stockBigModel_to_quotes"
+            app:destination="@id/quotes" />
+        <action
+            android:id="@+id/action_stockBigModel_to_your_Bag"
+            app:destination="@id/your_Bag" />
+        <action
+            android:id="@+id/action_stockBigModel_to_profile2"
+            app:destination="@id/profile2" />
+        <action
+            android:id="@+id/action_stockBigModel_to_notifications"
+            app:destination="@id/notifications" />
+        <action
+            android:id="@+id/action_stockBigModel_to_sale_request"
+            app:destination="@id/sale_request" />
+        <action
+            android:id="@+id/action_stockBigModel_to_purchaseRequest"
+            app:destination="@id/purchaseRequest" />
+    </fragment>
+    <fragment
+        android:id="@+id/sale_request"
+        android:name="com.example.ivestday.view.Sale_request"
+        android:label="sale_request"
+        tools:layout="@layout/sale_request" >
+        <action
+            android:id="@+id/action_sale_request_to_stockBigModel"
+            app:destination="@id/stockBigModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/purchaseRequest"
+        android:name="com.example.ivestday.view.PurchaseRequest"
+        android:label="purchase_request"
+        tools:layout="@layout/purchase_request" >
+        <action
+            android:id="@+id/action_purchaseRequest_to_stockBigModel"
+            app:destination="@id/stockBigModel" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/dialogCreateNotify2"
+        android:name="com.example.ivestday.view.DialogCreateNotify"
+        android:label="dialog_create_notify"
+        tools:layout="@layout/dialog_create_notify" />
+
+    <fragment
+        android:id="@+id/notifyBigModel"
+        android:name="com.example.ivestday.view.NotifyBigModel"
+        android:label="notification_one"
+        tools:layout="@layout/notification_one" >
+        <action
+            android:id="@+id/action_notifyBigModel_to_notifications"
+            app:destination="@id/notifications" />
+    </fragment>
+
+    <!--<dialog
+        android:id="@+id/dialogDeleteNotify"
+        android:name="com.example.ivestday.view.DialogDeleteNotify"
+        android:label="dialog_delete_notify"
+        tools:layout="@layout/dialog_delete_notify" />
+
+    <dialog
+        android:id="@+id/dialogDeleteCard"
+        android:name="com.example.ivestday.view.DialogDeleteCard"
+        android:label="dialog_delete_card"
+        tools:layout="@layout/dialog_delete_card" />-->
+
+</navigation>

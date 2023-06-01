@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/list_item_market.xml" value="0.22" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_2.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_bot_nav.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_delete_card_dialog.xml" value="0.22" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_for_buy.xml" value="0.22" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_for_icon.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_for_main.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/rounded_reg.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/drawable/star_favorite.xml" value="0.2135" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout-v21/top_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/account.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/add_card_lay.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/autoris.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/blank_fragment.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/bottom_navigation_menu.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/dialog_create_notify.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/dialog_delete_card.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/dialog_delete_notify.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/email_lay.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_b.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_blank.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_blank_2.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_overview.xml" value="0.52890625" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_overview_1.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/fragment_trade.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/helper_for_all.xml" value="0.5170454545454546" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/inn_lay.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_item_card.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_item_mark.xml" value="0.28203125" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_item_market.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_item_notification.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/list_of_card.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/notification_one.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/notifications.xml" value="0.5170454545454546" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/passport_layout.xml" value="0.5127840909090909" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/phone_lay.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/purchase_request.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/quotes.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/registration.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/sale_request.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/search.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/spinner_item_card.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/stock.xml" value="0.4744318181818182" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/top_up.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/topup.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/withdraw.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/layout/your_bag.xml" value="0.5" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/popupmenu.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/top_app_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/top_app_bar_card.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/top_app_bar_notify.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/top_app_bar_profile.xml" value="0.55" />
+        <entry key="..\:/AndroidStudio/Projects/IvestDay/app/src/main/res/menu/top_app_bar_stock.xml" value="0.55" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop/Javadoc" />
+    <option name="LOCALE" value="en" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

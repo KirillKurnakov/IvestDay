@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/notify_create_super"
+        android:icon="@drawable/bell"
+        app:showAsAction="always"
+        android:title="bell" />
+    <item
+        android:id="@+id/recycling"
+        android:icon="@drawable/recycling"
+        android:title="@string/recycling"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ivestday.view.AddCard">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topApp"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/main_3"
+        app:title="@string/add_card_text"
+        app:titleTextColor="@color/black"
+        app:navigationIcon="@drawable/arrow">
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/topApp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        android:id="@+id/number_card"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_for_main"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingHorizontal="4dp"
+            android:id="@+id/number_card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/add_card_number"
+            android:textColor="@color/black_tr"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/part_card_1"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/add_card_help"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/number_card_text" />
+
+        <!--<EditText
+            android:id="@+id/part_card_2"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/add_card_help"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintRight_toLeftOf="@id/part_card_3"
+            app:layout_constraintLeft_toRightOf="@id/part_card_1"
+            app:layout_constraintTop_toBottomOf="@+id/number_card_text" />
+
+        <EditText
+            android:id="@+id/part_card_3"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/add_card_help"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toRightOf="@id/part_card_2"
+            app:layout_constraintTop_toBottomOf="@+id/number_card_text" />
+
+        <EditText
+            android:id="@+id/part_card_4"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/add_card_help"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintLeft_toRightOf="@id/part_card_3"
+            app:layout_constraintTop_toBottomOf="@+id/number_card_text" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>  <!--Номер карты-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/number_card"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="16dp"
+        android:id="@+id/period"
+        android:layout_width="148dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_for_main"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:paddingHorizontal="4dp"
+            android:id="@+id/period_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/period"
+            android:textColor="@color/black_tr"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/period_1"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/period_help"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/period_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>  <!--Срок действия-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/number_card"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        android:id="@+id/cvv"
+        android:layout_width="148dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_for_main"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp">
+
+        <TextView
+            android:paddingHorizontal="4dp"
+            android:id="@+id/cvv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/CVV_text"
+            android:textColor="@color/black_tr"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/cvv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:hint="@string/CVV_help"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvv_text" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>  <!--CVV-->
+
+    <Button
+        android:id="@+id/button_save_add_card"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/main_2"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
